@@ -95,9 +95,7 @@ $path = $_SERVER['argv'][1];
 
 printf( "Uploading %s to Google Drive\n", $path );
 
-$service = new DriveServiceHelper( CLIENT_ID,
-								   SERVICE_ACCOUNT_NAME,
-								   KEY_PATH );
+$service = new DriveServiceHelper( CLIENT_ID, SERVICE_ACCOUNT_NAME, KEY_PATH );
 
 $folderId = $service->getFileIdByName( BACKUP_FOLDER );
 

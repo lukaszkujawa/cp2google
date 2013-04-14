@@ -3,9 +3,9 @@
 define( 'BACKUP_FOLDER', 'PHPBackups' );
 define( 'SHARE_WITH_GOOGLE_EMAIL', 'my-email@gmail.com' );
 
-define( 'CLIENT_ID',  '700692987478.apps.googleusercontent.com' );
-define( 'SERVICE_ACCOUNT_NAME', '700692987478@developer.gserviceaccount.com' );
-define( 'KEY_PATH', '../866a0f5841d09660ac6d4ac50ced1847b921f811-privatekey.p12');
+define( 'CLIENT_ID',  '701692987479.apps.googleusercontent.com' );
+define( 'SERVICE_ACCOUNT_NAME', '230692987478@developer.gserviceaccount.com' );
+define( 'KEY_PATH', '../866a3f5841d096604c6d4ac50ced5847b921f811-privatekey.p12');
 
 require_once 'google-api-php-client/src/Google_Client.php';
 require_once 'google-api-php-client/src/contrib/Google_DriveService.php';
